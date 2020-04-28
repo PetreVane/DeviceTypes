@@ -27,6 +27,6 @@ Example of setting constrains programmatically for different UIScreen sizes:
          ])
      }
 
-If you wish to use somewhere the device model name the user is using,  use this DeviceNames extension: 
+Find device model by using this DeviceNames extension: 
 
      let modelName = UIDevice.modelName
