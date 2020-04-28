@@ -26,3 +26,7 @@ Example of setting constrains programmatically for different UIScreen sizes:
              logoImageView.widthAnchor.constraint(equalToConstant: 200)
          ])
      }
+
+If you wish to use somewhere the device model name the user is using,  use this DeviceNames extension: 
+
+     let modelName = UIDevice.modelName
